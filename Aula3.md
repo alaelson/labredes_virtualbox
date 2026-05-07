@@ -1,6 +1,6 @@
 # Criação de uma rede ponto a ponto física entre dois PCs e uma LAN lógica com 4 VMs
 
-## Passo 0 - Terminar toda a prática da aula [Aula 02](https://github.com/alaelson/labredes_virtualbox/blob/main/Aula2.md).
+## Passo 0 - Terminar toda a prática da [Aula 02](https://github.com/alaelson/labredes_virtualbox/blob/main/Aula2.md).
 
 ## Passo 1 - Conexão ponto a ponto 
 
