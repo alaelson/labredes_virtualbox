@@ -84,8 +84,9 @@ Editado pelo vi.
 ```
 
 
-* adiciona o usuario ``aluno`` ao grupo ``redes``
+* cria e adiciona o usuario ``aluno`` ao grupo ``redes``
 ```bash
+ sudo adduser aluno
  sudo usermod -aG redes aluno
 ```
 
