@@ -1,8 +1,11 @@
 
 * Abrir terminal
-* logar com o usuário ``redes`` senha: ``admin@Lab92``
+* crie o usuário ``redes`` com senha: ``admin@Lab92``
+
 ```bash
+ sudo adduser redes
  su redes
+ sudo usermod -aG sudo redes
 ```
 
 * Alguns comandos básicos:
@@ -109,16 +112,7 @@ Editado pelo vi.
 ```
 * Verifique se os arquivos existem no diretório /labredes/images/original
 ```
-mini.iso
-ubuntu-20.04.4-desktop-amd64.iso
-ubuntu-22.04-live-server-amd64.iso
-```
-### Pelo Nautilus (Arquivos), acessar:
-
-	smb://192.168.101.10/iso-images
-	- user: aluno, senha: aluno
-
-	* copiar os arquivos da pasta public para a pasta  ``/labredes/images/original``
+Baixe a versão mais atual do Ubuntu Server
 
 ### Pelo Terminal 
 
