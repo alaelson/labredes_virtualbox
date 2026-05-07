@@ -5,11 +5,11 @@
  su redes
 ```
 
-* Verifique se os diretórios abaixo existem. Se não, vide a [Aula de 23 de junho de 2022](https://github.com/alaelson/2022-913-notasdeaula/blob/main/Aula.913-2022.06.23.md).
+* Verifique se os diretórios abaixo existem. Se não, vide a [Aula 01](https://github.com/alaelson/labredes_virtualbox/blob/main/Aula1.md).
 
 ```
 /labredes/images/original
-/labredes/VM/913/<NomeDoAluno>
+/labredes/VM/BSI/<NomeDoAluno>
 ```
 
 
@@ -27,8 +27,6 @@
 cd /labredes/images/original
 ls -la #verifique no resultado a existência dos arquivos .iso
 
-# Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
-scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
 
 ```
 * Instale o Virtualbox Extension Pack
