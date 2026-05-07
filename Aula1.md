@@ -76,8 +76,8 @@ Editado pelo vi.
 # cria diretórios e subdiretórios
  cd /
  sudo mkdir labredes/VM
- sudo mkdir labredes/VM/913
- sudo mkdir labredes/VM/913/<student> # substitua <student> pelo seu nome
+ sudo mkdir labredes/VM/BSI
+ sudo mkdir labredes/VM/BSI/<student> # substitua <student> pelo seu nome
 ```
 
 
@@ -105,7 +105,7 @@ Editado pelo vi.
 * Verifique se os diretórios existem:
 ```
 /labredes/images/original
-/labredes/VM/913/<NomeDoAluno>
+/labredes/VM/BSI/<NomeDoAluno>
 ```
 * Verifique se os arquivos existem no diretório /labredes/images/original
 ```
