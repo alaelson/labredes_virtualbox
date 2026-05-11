@@ -17,11 +17,17 @@
 8. **Ambiente:** É necessário criar novas VMs especificamente para este projeto [1].
 9. **Testes:** Colocar no tutorial os resultados de todos os testes de **ping** e **acesso SSH**, utilizando os usuários criados nas VMs e os nomes dos hosts [1].
 
-### Prazos e Entregas
 
-#### Etapa 1 - 11/06/2026
+<p><center> Figura 1:  Topologia de Rede Virtualizada para a execução do projeto.</center></p>   
+   <img src="topologia-proj.2b.png" alt="topologia de rede"
+	title="Figura 1: Topologia de rede virtualizada do projeto do Projeto Final BSI 2026.01" width="800" height="auto" />
+
+# Prazos e Entregas
+
+## Etapa 1 - 11/06/2026
 a) Apresentar as tabelas de definições de nomes e IPs para todas as VMs.
+
 b) Criar a página do GitHub do projeto do grupo.
 
-#### Etapa 2 (Final) - 18/06/2026
+## Etapa 2 (Final) - 18/06/2026
 Entrega e apresentação final do projeto.
