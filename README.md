@@ -14,4 +14,4 @@ Clique no link da data para navegar até o roteiro com os comandos utilizados du
 * [Reconfiguração de teclado para pt-BR ABNT2](https://github.com/alaelson/labredes_virtualbox/blob/main/keyboardLayout-pt_Br.md)
 
 ### Projeto Final BSI 2026.01
-* Para acessar as definições do projeto [clique aqui](https://github.com/alaelson/labredes_virtualbox/blob/master/projeto-final/README.md)
+* Para acessar as definições do projeto [clique aqui](https://github.com/alaelson/labredes_virtualbox/blob/main/projeto-final/README.md)
