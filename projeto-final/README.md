@@ -10,8 +10,8 @@
         * O Grupo 1 da turma bsi-26-1 usará a faixa 192.168.26.0 - 192.168.26.15/28.
         * O Grupo 2 da turma bsi-26-1 usará a faixa 192.168.26.16 - 192.168.26.31/28.
 5. **Nomenclatura e Domínio (FQDN):** Criar uma tabela com as definições de nomes para hostname, nomes de domínio, apelidos (aliases) e endereços IP das MVs [1].
-    * O domínio deve obedecer ao formato: `<grupoX-bsi-26-1>.maceio.lab`.
-    * **Exemplo de hostname:** `servidor.grupo1-bsi-26-1.maceio.lab`.
+    * O domínio deve obedecer ao formato: `<grupoX>.bsi-26-1.maceio.lab`.
+    * **Exemplo de hostname:** `servidor.grupo1.bsi-26-1.maceio.lab`.
 6. **Configuração de Rede:** Editar os hostnames no S.O. de cada MV e adicionar o mapeamento IP/Nomes no arquivo `/etc/hosts` de cada VM [1].
 7. **Usuários:** Em cada VM deve haver o usuário administrador e os usuários com os nomes dos **integrantes do grupo** [1]. Devem ser utilizados os nomes conforme a lista oficial (ex: `alex.rodrigo`, `andrey.joshua`, `andrezza`, `arthur.jonatha`, etc.) [2, 3].
 8. **Ambiente:** É necessário criar novas VMs especificamente para este projeto [1].
