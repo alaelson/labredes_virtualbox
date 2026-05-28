@@ -83,7 +83,7 @@ sudo adduser usuario1
 sudo adduser usuario2
 
 # Criar usuário 3
-sudo adduser usuario3
+    enp0s3:                             # Nome da interface (verifique com: ip link show)
 
 # Criar usuário 4
 sudo adduser usuario4
@@ -106,7 +106,7 @@ sudo useradd -m -s /bin/bash usuario3
 sudo useradd -m -s /bin/bash usuario4
 
 # Definir senhas para cada usuário
-# Importante: Alterar as senhas padrão por senhas seguras
+    enp0s3:
 echo "usuario1:password1" | sudo chpasswd
 echo "usuario2:password2" | sudo chpasswd
 echo "usuario3:password3" | sudo chpasswd
@@ -129,7 +129,7 @@ Para verificar se os usuários foram criados com sucesso:
 
 ```bash
 # Listar todos os usuários do sistema
-cat /etc/passwd
+    enp0s3:
 
 # Verificar grupos do usuário
 groups usuario1
@@ -152,7 +152,7 @@ O hostname é o nome que identifica uma máquina na rede. Nesta etapa, configura
 1. **Identificação:** Facilita a administração e o reconhecimento de cada máquina
 2. **Comunicação:** O hostname é usado em protocolos de rede (DNS, SSH, etc.)
 3. **Logs:** Registros de sistema identificam claramente qual máquina gerou o evento
-4. **Conformidade:** Segue o padrão definido pelo projeto (FQDN com formato específico)
+    enp0s3:
 
 ### Como Executar
 
@@ -259,7 +259,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 network:
   version: 2                          # Versão do formato netplan (v2 é mais novo)
   ethernets:                          # Interfaces de rede
-    eth0:                             # Nome da interface (verifique com: ip link show)
+    enp0s3:                             # Nome da interface (verifique com: ip link show)
       dhcp4: false                    # Desabilitar DHCP automático
       addresses:                      # Lista de endereços IP
         - 192.168.26.241/28           # IP estático com máscara /28
@@ -282,7 +282,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 network:
   version: 2
   ethernets:
-    eth0:
+    enp0s3:
       dhcp4: false
       addresses:
         - 192.168.26.242/28           # IP diferente do servidor frances
@@ -305,7 +305,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 network:
   version: 2
   ethernets:
-    eth0:
+    enp0s3:
       dhcp4: false
       addresses:
         - 192.168.26.243/28
@@ -328,7 +328,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 network:
   version: 2
   ethernets:
-    eth0:
+    enp0s3:
       dhcp4: false
       addresses:
         - 192.168.26.244/28
@@ -367,15 +367,15 @@ Para confirmar que a configuração foi aplicada corretamente:
 ip addr show
 
 # Saída esperada:
-# eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500
-#     inet 192.168.26.241/28 brd 192.168.26.255 scope global eth0
+# enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500
+#     inet 192.168.26.241/28 brd 192.168.26.255 scope global enp0s3
 
 # Comando 2: Mostrar a tabela de roteamento
 ip route show
 
 # Saída esperada:
-# default via 192.168.26.241 dev eth0
-# 192.168.26.240/28 dev eth0 proto kernel scope link src 192.168.26.241
+# default via 192.168.26.241 dev enp0s3
+# 192.168.26.240/28 dev enp0s3 proto kernel scope link src 192.168.26.241
 
 # Comando 3: Testar resolução DNS
 resolvectl status
